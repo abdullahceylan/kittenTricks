@@ -8,24 +8,27 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "expo": "24.0.2",
+    "expo": "28.0.0",
     "hoist-non-react-statics": "2.3.1",
-    "lodash": "4.17.4",
-    "moment": "2.20.1",
-    "prop-types": "15.6.0",
-    "react": "16.0.0",
-    "react-native": "0.51.0",
+    "lodash": "4.17.21",
+    "moment": "2.29.4",
+    "prop-types": "15.6.2",
+    "react": "16.5.0",
+    "react-native": "0.64.0",
     "react-native-keyboard-spacer": "0.4.1",
     "react-native-linear-gradient": "2.4.0",
     "react-native-progress-bar": "0.1.2",
     "react-native-switch-pro": "0.4.6",
     "react-native-ui-kitten": "3.0.0",
-    "react-navigation": "1.0.0-beta.23",
-    "victory-native": "0.15.0",
-    "expo-analytics":"1.0.6"
+    "react-navigation": "1.0.0",
+    "victory-native": "36.2.0",
+    "expo-analytics": "1.0.6",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
@@ -37,5 +40,6 @@
   "jest": {
     "preset": "react-native"
   },
-  "main": "./app/app.js"
+  "main": "./app/app.js",
+  "snyk": true
 }
