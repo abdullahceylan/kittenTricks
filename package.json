@@ -11,12 +11,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "expo": "24.0.2",
+    "expo": "50.0.0",
     "hoist-non-react-statics": "2.3.1",
     "lodash": "4.17.4",
     "moment": "2.20.1",
     "prop-types": "15.6.0",
-    "react": "16.0.0",
+    "react": "16.5.0",
     "react-native": "0.51.0",
     "react-native-keyboard-spacer": "0.4.1",
     "react-native-linear-gradient": "2.4.0",
@@ -24,7 +24,7 @@
     "react-native-switch-pro": "0.4.6",
     "react-native-ui-kitten": "3.0.0",
     "react-navigation": "1.0.0-beta.23",
-    "victory-native": "0.15.0",
+    "victory-native": "36.2.0",
     "expo-analytics":"1.0.6"
   },
   "devDependencies": {
